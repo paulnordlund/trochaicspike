@@ -1,0 +1,225 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #A9A9A9;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #696969;
+}
+
+/* Text Styles */
+
+.textdec {
+  color: white;
+  text-shadow: 2px 2px 1px #A9A9A9;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.textdec2 {
+  letter-spacing: 2px;
+}
+
+/* Section Styles */
+
+#logo {
+    float: left;
+}
+
+.main-nav {
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  position: absolute;
+}
+
+#topbanner {
+  text-align: center;
+  background: url('images/topbanner.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 360px;
+  margin-bottom: 35px;
+}
+
+audio {
+  max-width: 100%;
+}
+
+.song li {
+  border-radius: 6px;
+  display: inline-block;
+  border: inset 5px #708090;
+  color: white;
+  margin: 8px 0px;
+}
+
+.song li:nth-child(odd) {
+  border: inset 4px #B22222;
+}
+
+.songbackground {
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#v {
+  background-image: url("images/v.jpg");
+  padding-top: 181px;
+}
+
+#w {
+  background-image: url("images/w.jpg");
+  padding-top: 181px;
+}
+
+#x {
+  background-image: url("images/x.jpg");
+  padding-top: 150px;
+}
+
+#y {
+  background-image: url("images/y.jpg");
+  padding-top: 181px;
+}
+
+#z {
+  background-image: url("images/z.jpg");
+  padding-top: 152px;
+}
+
+.card {
+  margin: 15px auto;
+  padding: 10px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card:hover {
+  border-color: #B22222;
+}
+
+.pic {
+  max-width: 100%;
+}
+
+.venuelink {
+  color: #222;
+}
+.venuelink:hover {
+  color: #B22222;
+}
+
+footer {
+  width: 100%;
+  min-height: 20px;
+  padding: 10px 0px;
+}
+
+#footerbanner {
+  text-align: center;
+  background: url('images/footerbanner.jpg') no-repeat center right ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 160px;
+  padding-bottom: 100px;
+  margin-top: 40px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 15px;
+  width: 60px;
+  height: 60px;
+  background-size: 60px 60px;
+  opacity: .7;
+  transition: all .5s;
+}
+a.twitter {
+  background-image: url(images/twit.svg);
+}
+a.youtube {
+  background-image: url(images/yt.svg);
+}
+a.instagram {
+  background-image: url(images/insta.svg);
+}
+a.facebook {
+  background-image: url(images/fb.svg);
+}
+a.reverbnation {
+  background-image: url(images/rn.svg);
+}
+a.soundcloud {
+  background-image: url(images/sc.svg);
+}
+
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
+
+footer .copyright {
+  float: right;
+  top: -8px;
+  font-size: .75em;
+  color: #A9A9A9;
+  padding-top: 170px;
+  padding-right: 2%;
+}
+
+.copyright a {
+  color: #A9A9A9;
+}
+
+.copyright a:hover{
+  color: #B22222;
+}
+
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  
+  header {
+    min-height: 470px;
+  }
+
+  footer {
+    font-size: 1.3em;
+  }
+
+}
