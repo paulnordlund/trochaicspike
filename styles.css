@@ -85,27 +85,27 @@ audio {
 
 #v {
   background-image: url("images/v.jpg");
-  padding-top: 171px;
+  padding-top: 161px;
 }
 
 #w {
   background-image: url("images/w.jpg");
-  padding-top: 171px;
+  padding-top: 161px;
 }
 
 #x {
   background-image: url("images/x.jpg");
-  padding-top: 140px;
+  padding-top: 130px;
 }
 
 #y {
   background-image: url("images/y.jpg");
-  padding-top: 171px;
+  padding-top: 161px;
 }
 
 #z {
   background-image: url("images/z.jpg");
-  padding-top: 142px;
+  padding-top: 132px;
 }
 
 .card {
